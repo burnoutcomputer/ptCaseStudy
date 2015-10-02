@@ -1,23 +1,79 @@
 body {
     color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/ptrbackground.jpg);
+    #background-repeat: no-repeat;
 }
 
 h1 {
     background-color: #000033;
     color: #FFFFFF;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
 }
 
 nav {
     background-color: #90C7E3;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
+
+nav a {
+    text-decoration: none;
+}    
 
 h2 {
     color: #3399CC;
+    font-family: Georgia, serif;
+    text-shadow: 1px 1px 1px #666666;
 }
 
 h3 {
     color: #000033;
+    font-family: Georgia, serif;
 }
 .resort {
     color: #5C7FA3;
+    font-weight: bold;
 }
+
+#contact {
+    font-size: 90%;
+}
+
+ul {
+    list-style-image: url(images/marker.gif);
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding: 20px;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    width: 80%;
+    min-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #000033;
+}
+
+#content {
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
