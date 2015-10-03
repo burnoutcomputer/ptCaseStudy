@@ -1,19 +1,11 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+  display: block;
+}
+
 body {
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(images/ptrbackground.jpg);
-}
-
-h1 {
-    background-color: #000033;
-    color: #FFFFFF;
-    background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    font-family: Georgia, serif;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 10px;
 }
 
 nav {
@@ -30,6 +22,22 @@ nav a {
     text-decoration: none;
 }    
 
+nav a:hover { color: #FFFFFF;
+    
+}
+
+h1 {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
 h2 {
     color: #3399CC;
     font-family: Georgia, serif;
@@ -39,14 +47,6 @@ h2 {
 h3 {
     color: #000033;
     font-family: Georgia, serif;
-}
-.resort {
-    color: #5C7FA3;
-    font-weight: bold;
-}
-
-#contact {
-    font-size: 90%;
 }
 
 ul {
@@ -61,6 +61,21 @@ footer {
     padding: 20px;
 }
 
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#content {
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #wrapper {
     background-color: #FFFFFF;
     width: 80%;
@@ -70,9 +85,23 @@ footer {
     box-shadow: 5px 5px 5px #000033;
 }
 
-#content {
-    padding-top: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
+#homehero {
+    height: 300px;
+    background-image: url(images/coasthero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
+#trailhero {
+    height: 300px;
+    background-image: url(images/trailhero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url(images/yurthero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
