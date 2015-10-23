@@ -286,10 +286,7 @@ footer {
     
     .mobile {
         display: block;
-    }
-    
-    .mobile img {
-        #width: 100%;
+        width: 100%;
     }
 }
 
