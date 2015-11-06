@@ -6,7 +6,6 @@ body {
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(#FFFFFF, #4F6D93);
-    
 }
 
 label {
@@ -23,6 +22,9 @@ input {
     margin-bottom: 20px;
 }
 
+input [type=submit] {
+    margin-left: 120px;
+}
 
 nav {
     font-size: 1.2em;
@@ -114,7 +116,14 @@ footer {
     float: none;
 }
 
+.video {
+    float: right;
+    width: 320px;
+    height: 240px;
+}
+
 .resort {
+    display: block;
     color: #5C7FA3;
     font-weight: bold;
 }
@@ -217,7 +226,6 @@ footer {
     display: none;
 }
 
-
 @media only screen and (max-width: 768px) {
     
     nav {
@@ -266,6 +274,10 @@ footer {
         margin-left: 0px;
     }
     
+    .video {
+        float: none;
+        display: block;
+    }
     
 }
 
@@ -277,17 +289,17 @@ footer {
     }
     
     label {
-    display: block;
-    margin-bottom: 20px;
-    float: none;
-    text-align:center;
-    width: 120px;
-    padding-right: none;
-}
+        display: block;
+        margin-bottom: 20px;
+        float: none;
+        text-align:center;
+        width: 120px;
+        padding-right: 0px;
+    }
     input {
     width: 100%
     
-    
+    }
     nav {
         padding-bottom: 0px;
         padding-top: 0px;
@@ -318,6 +330,10 @@ footer {
         font-size: 90%;
     }
     
+    .video {
+        display: none;
+    }
+        
     #homehero {
         background-image: none;
         height: 0px;
