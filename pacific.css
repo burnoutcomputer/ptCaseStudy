@@ -22,8 +22,8 @@ input {
     margin-bottom: 20px;
 }
 
-input [type=submit] {
-    margin-left: 120px;
+input[type="submit"] {
+    margin-left: 130px;
 }
 
 nav {
@@ -298,8 +298,12 @@ footer {
     }
     input {
     width: 100%
-    
     }
+    
+    input[type="submit"] {
+        margin-left: 0px;
+    }
+    
     nav {
         padding-bottom: 0px;
         padding-top: 0px;
